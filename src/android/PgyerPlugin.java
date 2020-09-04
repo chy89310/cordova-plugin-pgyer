@@ -2,7 +2,7 @@ package wang.imchao.plugin;
 
 import android.util.Log;
 
-import com.pgyersdk.feedback.PgyFeedbackShakeManager;
+import com.pgyersdk.feedback.PgyerFeedbackManager;
 import com.pgyersdk.update.PgyUpdateManager;
 
 import org.apache.cordova.CordovaInterface;
