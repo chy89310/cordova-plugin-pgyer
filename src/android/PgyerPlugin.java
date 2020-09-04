@@ -17,7 +17,7 @@ public class PgyerPlugin extends CordovaPlugin {
         super.initialize(cordova, webView);
         cordova.getThreadPool().execute(new Runnable() {
             public void run() {
-                PgyUpdateManager.register(cordova.getActivity());
+                new PgyUpdateManager.Builder().register(cordova.getActivity());
                 Log.i(TAG, "Pgyer update check registered");
             }
         });
